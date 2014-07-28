@@ -1,0 +1,125 @@
+// Core variables and mixins
+@import "variables"; // Modify this for custom colors, font-sizes, etc
+@import "mixins"; // Modify this for custom functions and actions etc
+@import "google-web-font"; // Google Web Fonts
+@import "compass";
+@import "compass/css3";
+
+/* 
+Theme Name: Genesis Awesome Theme
+Theme URI: http://carloslanto.com/Genesis-Awesome-Child-Theme
+Description: This is a Genesis Child Theme created for SASS/Compass compatibility. Works whit the official Genesis Sample Theme ver. 2.1.2
+Author: Carlos Lanto
+Author URI: https://github.com/CarlosLanto/Genesis-Awesome-Theme  
+Template: genesis  
+Template Version: 0.1
+Tags: black, orange, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-menu, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready  
+License: GPL-2.0+  
+License URI: http://www.gnu.org/licenses/gpl-2.0.html  
+*/
+
+//
+//
+//
+
+/* # Table of Contents
+- HTML5 Reset
+	- Baseline Normalize
+	- Box Sizing
+	- Float Clearing
+- Defaults
+	- Typographical Elements
+	- Headings
+	- Objects
+	- Gallery
+	- Forms
+	- Tables
+- Structure and Layout
+	- Site Containers
+	- Column Widths and Positions
+	- Column Classes
+- Common Classes
+	- Avatar
+	- Genesis
+	- Search Form
+	- Titles
+	- WordPress
+- Widgets
+	- Featured Content
+- Plugins
+	- Genesis eNews Extended
+	- Jetpack
+- Site Header
+	- Title Area
+	- Widget Area
+- Site Navigation
+	- Header Navigation
+	- Primary Navigation
+	- Secondary Navigation
+- Content Area
+	- Entries
+	- Entry Meta
+	- Pagination
+	- Comments
+- Sidebars
+- Footer Widgets
+- Site Footer
+- Media Queries
+	- Retina Display
+	- Max-width: 1200px
+	- Max-width: 960px
+	- Max-width: 800px
+*/
+
+/* # Normalize
+---------------------------------------------------------------------------------------------------- */
+@import "normalize";
+
+/* # Defaults
+---------------------------------------------------------------------------------------------------- */
+@import "defaults";
+@import "headlines";
+
+/* # Structure and Layout
+---------------------------------------------------------------------------------------------------- */
+@import "structure-layout";
+
+/* # Site Header
+---------------------------------------------------------------------------------------------------- */
+@import "header";
+
+/* # Site Navigation
+---------------------------------------------------------------------------------------------------- */
+@import "navigation";
+
+/* # Common Classes
+---------------------------------------------------------------------------------------------------- */
+@import "genesis-classes";
+
+/* # Content Area
+---------------------------------------------------------------------------------------------------- */
+@import "entry-content";
+
+/* ## Comments
+--------------------------------------------- */
+@import "comments";
+
+/* # Sidebars
+---------------------------------------------------------------------------------------------------- */
+@import "sidebar";
+
+/* # Plugins
+---------------------------------------------------------------------------------------------------- */
+@import "plugins";
+
+/* # Widgets
+---------------------------------------------------------------------------------------------------- */
+@import "widgets";
+
+/* # Site Footer
+---------------------------------------------------------------------------------------------------- */
+@import "footer";
+
+/* # Media Queries
+---------------------------------------------------------------------------------------------------- */
+@import "media-queries";

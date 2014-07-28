@@ -1,0 +1,148 @@
+
+/* ## Entries
+--------------------------------------------- */
+.breadcrumb {
+	margin-bottom: 20px;
+	a{
+	}
+}
+
+.entry {
+	margin-bottom: 40px;
+	padding: 50px 60px;
+}
+
+.content .entry {
+	background-color: $light;
+}
+
+.sticky {
+}
+
+/* 	Titles 	*/
+.entry-title {
+	font-size: 36px;
+
+	a {
+		color: $dark;
+
+		&:hover{
+			color: $extra;
+		}
+	}
+}
+
+.archive-title {
+	font-size: 20px;
+}
+
+.entry-content {
+
+	/* 	Listas 	*/
+	ol, ul{
+		margin-bottom: 28px;
+		margin-left: 40px;
+	}
+
+	ol > li {
+		list-style-type: decimal;
+	}
+
+	ul > li {
+		list-style-type: disc;
+	}
+
+	ol ol,
+	ul ul {
+		margin-bottom: 0;
+	}
+
+	code {
+		background-color: $dark;
+		color: #ddd;
+	}
+
+	blockquote {
+
+	 	p {
+
+	 	}
+	}
+}
+
+/* ## Entry Meta
+--------------------------------------------- */
+
+p.entry-meta {
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+.entry-meta {
+	.entry-header & {
+		margin-bottom: 24px;
+	}
+
+	.entry-footer & {
+		border-top: 2px solid $gray;
+		padding-top: 24px;
+	}
+}
+
+.entry-categories,
+.entry-tags {
+	display: block;
+}
+
+.entry-comments-link::before {
+	content: "\2014";
+	margin: 0 6px 0 2px;
+}
+
+/* After Post Sidebar */
+.after-post {
+	background: $gray;
+	border:1px solid shade($light, 15%);
+	@include rem(padding, 10px);
+	@include rem(margin-bottom, 50px);
+
+}
+/* ## Pagination
+--------------------------------------------- */
+
+.pagination {
+	clear: both;
+	margin: 40px 0;
+}
+
+.adjacent-entry-pagination {
+	margin-bottom: 0;
+}
+
+.archive-pagination {
+	
+	a{
+	}
+
+	li {
+	display: inline;
+
+		a {
+			background-color: $dark;
+			color: $light;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 16px;
+			padding: 8px 12px;
+		
+			&:hover,
+			&:focus,
+			&:active {
+				background-color: $extra;
+			}
+		}
+	}
+}
+.archive-pagination .active a {
+	background-color: $extra;
+}

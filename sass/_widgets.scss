@@ -1,0 +1,99 @@
+.widget {
+	word-wrap: break-word;
+
+	ol > li {
+		list-style-position: inside;
+		list-style-type: decimal;
+		padding-left: 20px;
+		text-indent:  -20px;
+	}
+
+	li li {
+		border: none;
+		margin: 0 0 0 30px;
+		padding: 0;
+	}
+}
+
+.widget-title{
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.widget_calendar{
+
+	table{
+		width: 100%;
+	}
+
+	td,
+	th {
+		text-align: center;
+	}
+}
+
+/* # Home Widgets
+---------------------------------------------------------------------------------------------------- */
+
+
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+.footer-widgets {
+	background-color: $dark;
+	clear: both;
+	padding-top: 40px;
+	color: #999;
+
+	a{
+		color: $light;
+		&.button {
+			color: $light;
+		}
+		&:hover{
+			background-color: $light;
+			color: $dark;
+			@include rem (padding, 0 5px);
+		}
+	}
+
+	input {
+		border: 1px solid $dark;
+	}
+
+	li{
+		border-bottom: 1px solid #666;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+
+	.widget {
+		margin-bottom: 40px;
+	}
+
+	.widget-title{
+		color: $light;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.footer-widgets-1,
+.footer-widgets-2,
+.footer-widgets-3 {
+	width: 340px;
+}
+
+.footer-widgets-1 {
+	margin-right: 60px;
+}
+
+.footer-widgets-1,
+.footer-widgets-2 {
+	float: left;
+}
+
+.footer-widgets-3 {
+	float: right;
+}

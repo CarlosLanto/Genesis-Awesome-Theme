@@ -1,0 +1,45 @@
+//
+//			Colors
+//--------------------------*/
+
+$base:				#ff6644;
+$primary:			#ff6644;
+$secondary:			#ff6644;
+$link:				darken($base, 5%);
+$extra:				#e5554e;
+
+// 	
+//	Light & Dark
+//---------------------------*/
+
+$light:				#fff;
+$gray:				darken($light, 3%);
+$dark:				#262626;
+
+//
+//	SOCIAL COLORS - http://designpieces.com/2012/12/social-media-colours-hex-and-rgb/
+//--------------------------*/
+
+$twitter:			#00aced;
+$facebook: 			#3b5998;
+$linkedin:			#007bb6;
+$google:			#dd4b39;
+$youtube:			#bb0000;
+$pinterest: 		#cb2027;
+$tumblr:			#32506d;
+$flickr:			#ff0084;
+$instagram:			#517fa4;
+$vimeo:				#aad450;
+$foursquare: 		#0072b1;
+$rss:				#ff6600;
+
+//
+//	Typography
+//--------------------------*/
+
+$textColor:             #333 !default;
+$googleFont:            Lato,Arimo, Varela, sans-serif !default; // Can use multiple fonts with a comma. Cabin, Open Sans, etc...
+$googleFontWeight:      400 !default; // 400 or 700
+$sansFontFamily:        Lato,"Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
+$baseFontFamily:        $sansFontFamily !default;

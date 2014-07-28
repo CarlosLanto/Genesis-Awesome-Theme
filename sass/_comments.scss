@@ -1,0 +1,105 @@
+.entry-pings {
+	@include rem (padding, 40px 40px 16px);
+	background-color: $light;
+	margin-bottom: 40px;
+	.reply{
+		display: none;
+	}
+}
+
+.entry-comments {
+	background-color: $light;
+	margin-bottom: 40px;
+	padding: 40px;
+
+	.comment-author {
+		color: $base;
+		margin-bottom: 0;
+
+		a{
+			color: $base;
+			
+			&:hover{
+				background-color: $base;
+				color: $light;
+			}
+		}
+	}
+}
+
+.comment-header {
+	font-size: 16px;
+
+	img {
+
+	}
+}
+
+li.comment {
+	background-color: $gray;
+	border: 2px solid $light;
+	border-right: none;
+}
+
+.comment-content {
+	clear:both;
+
+	a{
+		border-bottom: 1px solid $base;
+
+		&:hover,
+		&:active {
+			border-bottom: none;
+		}
+	}
+}
+
+.comment .avatar {
+	margin: 0 16px 24px 0;
+}
+
+.comment-list{
+	.comment {
+
+		> article {
+		}
+	}
+
+	li{
+		margin-top:24px;
+		padding: 32px;
+	}
+
+	li li {
+		margin-right: -32px;
+	}
+}
+
+.comment-respond {
+	background-color: $light;
+	margin-bottom: 40px;
+	@include rem(padding, 40px 40px 16px);
+
+	input[type="email"],
+	input[type="text"],
+	input[type="url"] {
+		width: 50%;
+	}
+
+	label {
+		display: block;
+		margin-right: 12px;
+	}
+
+	.form-submit {
+	}
+}
+
+.bypostauthor{
+}
+
+.form-allowed-tags {
+	background-color: $gray;
+	font-size: 16px;
+	padding: 24px;
+}
