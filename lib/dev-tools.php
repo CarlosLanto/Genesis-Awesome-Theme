@@ -30,39 +30,6 @@ function gat_maintenance_mode() {
 
 }
 
-
-/**
-* Redirect user after login
-*
-* See: http://wp-snippets.com/redirect-user-after-login/
-*/
-
-// add_action('admin_init','redirect_user_on_role');
-
-	function redirect_user_on_role() { 
-		//retrieve current user info global $current_user; get_currentuserinfo(); 
-		//If login user role is Subscriber if ($current_user->user_level == 0)
-		{
-			wp_redirect( home_url() ); exit;
-		}
-			//If login user role is Contributor
-			else if ($current_user->user_level > 1)
-			{
-				wp_redirect( home_url() ); exit;
-			}
-			//If login user role is Editor
-			else if ($current_user->user_level >8)
-			{
-				wp_redirect( home_url() ); exit;
-			}
-			// For other rolse
-			else
-			{
-			$redirect_to = 'http://google.com/';
-				return $redirect_to;
-			}
-	}
-
 /**
  * Remove Wordpress Version
  */
@@ -71,8 +38,6 @@ function gat_maintenance_mode() {
 	function gat_remove_version() {
 		return '';
 	}
-
-
 
 /**
  * Clear all transients with one click

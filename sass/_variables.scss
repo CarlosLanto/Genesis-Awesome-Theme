@@ -40,6 +40,7 @@ $rss:				#ff6600;
 $textColor:             #333 !default;
 $googleFont:            Lato,Arimo, Varela, sans-serif !default; // Can use multiple fonts with a comma. Cabin, Open Sans, etc...
 $googleFontWeight:      400 !default; // 400 or 700
-$sansFontFamily:        Lato,"Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$genesisDefault:		Lato, sans-serif;
+$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $serifFontFamily:       Georgia, "Times New Roman", Times, serif !default;
 $baseFontFamily:        $sansFontFamily !default;

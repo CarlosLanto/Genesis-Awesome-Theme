@@ -1,7 +1,6 @@
 // Core variables and mixins
 @import "variables"; // Modify this for custom colors, font-sizes, etc
 @import "mixins"; // Modify this for custom functions and actions etc
-@import "google-web-font"; // Google Web Fonts
 @import "compass";
 @import "compass/css3";
 
@@ -12,15 +11,12 @@ Description: This is a Genesis Child Theme created for SASS/Compass compatibilit
 Author: Carlos Lanto
 Author URI: https://github.com/CarlosLanto/Genesis-Awesome-Theme  
 Template: genesis  
-Template Version: 0.1
+Template Version: 0.2
 Tags: black, orange, white, one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, custom-menu, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready  
 License: GPL-2.0+  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 */
 
-//
-//
-//
 
 /* # Table of Contents
 - HTML5 Reset
@@ -73,7 +69,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /* # Normalize
 ---------------------------------------------------------------------------------------------------- */
-@import "normalize";
+@import "normalize"; 
 
 /* # Defaults
 ---------------------------------------------------------------------------------------------------- */

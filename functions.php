@@ -5,7 +5,7 @@ include_once( get_template_directory() . '/lib/init.php' );
 //* Child theme (do not remove)
 define( 'CHILD_THEME_NAME', 'Genesis Awesome Theme' );
 define( 'CHILD_THEME_URL', 'https://github.com/CarlosLanto/Genesis-Awesome-Theme' );
-define( 'CHILD_THEME_VERSION', '0.1' );
+define( 'CHILD_THEME_VERSION', '0.2' );
 
 /////	Load Necesary Files For Genesis Awesome Theme /////
 
@@ -20,6 +20,9 @@ include_once( get_stylesheet_directory() . '/lib/scripts.php');
 
 //* Load Genesis Snnipets
 include_once( get_stylesheet_directory() . '/lib/functions/snippets.php');
+
+//* Laod Shortcodes
+include_once( get_stylesheet_directory() . '/lib/functions/shortcodes.php');
 
 // Hooks after-entry widget area to single posts
 add_action( 'genesis_entry_footer', 'gat_after_post'  ); 
