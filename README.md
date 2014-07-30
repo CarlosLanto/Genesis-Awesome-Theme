@@ -40,7 +40,9 @@ Rem Mixin
 - $url: Url
 
 Example:
+
     [gat-btn color=info size=lg target=blank url=twitter.com/CarlosLanto] Twitter [/gat-btn]
+    
     [gat-btn color=success url=twitter.com/CarlosLanto] Twitter [/gat-btn]
 
 #### Alert Boxes 
@@ -49,20 +51,26 @@ Example:
 - $color: default, primary, success (default), infom warning, danger
 
 Example:
+
     [gat-box] Lorem ipsum dolor sit amet [/gat-box]
+    
     [gat-box color=info] Lorem ipsum dolor sit amet [/gat-box]
 
 #### Genesis Column Classes 
+
 ##### One Half
-[half first]Lorem ipsum dolor sit amet, consectetuer adipiscing elit.[end]
 
-[half]Lorem ipsum dolor sit amet, consectetuer adipiscing elit.[end]
+	[half first]Lorem ipsum dolor sit amet, consectetuer adipiscing elit.[end]
+
+	[half]Lorem ipsum dolor sit amet, consectetuer adipiscing elit.[end]
+
 ##### One Third
-[third first]Lorem ipsum dolor sit amet, consectetuer adipiscing elit.[end]
 
-[third]Lorem ipsum dolor sit amet, consectetuer adipiscing elit.[end]
+	[third first]Lorem ipsum dolor sit amet, consectetuer adipiscing elit.[end]
 
-[third]Lorem ipsum dolor sit amet, consectetuer adipiscing elit.[end]
+	[third]Lorem ipsum dolor sit amet, consectetuer adipiscing elit.[end]
+
+	[third]Lorem ipsum dolor sit amet, consectetuer adipiscing elit.[end]
 
 
 ### Changelog
