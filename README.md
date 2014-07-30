@@ -13,8 +13,8 @@ This version add integration whit FontAwesome, Bootstrap Buttons and Alert Boxes
 - Animate.css
 - Shortcodes (/lib/functions/shortcodes.php)
 
-### Minis
-Rem Minin
+### Mixins
+Rem Mixin
 
     You code:
     .class{
