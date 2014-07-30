@@ -1,4 +1,4 @@
-Genesis-Awesome-Theme
+Genesis Awesome Theme
 =====================
 
 Genesis Child Theme for fans of SASS / Compass maintaining the same stylesheet that Genesis Sample Theme. 
@@ -33,9 +33,11 @@ Rem Mixin
 ### Shortcodes
 
 ####Bootstrap Button
+See: [Bootstrap Buttons](http://getbootstrap.com/css/#buttons)
+
 [gat-btn color=$color size=$size url=$url target=$target]
 - $color: default, primary, success, info, warning, danger, link
-- $size: lg, sm, xs // Normal Size if is ommited
+- $size: lg, sm, xs // Button Normal Size if is omitted
 - $target: self or blank  // This is optional. Use "self" by default.
 - $url: Url
 
